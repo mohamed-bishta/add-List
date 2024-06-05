@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.element {
+  width: 500px;
+  margin: auto auto;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #EEE;
+  padding: 12px;
+}
+
+.addelement {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffffff;
+  margin-top: 12px;
+}
+
+
+.content p{
+  margin: 0;
+}
+
+.addelement input {
+  flex: 1;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.addelement input:focus {
+  outline: none;
+}
+
+.addelement button {
+  cursor: pointer;
+  background-color: #009600;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+}
